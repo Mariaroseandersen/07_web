@@ -1,0 +1,173 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Alle sider */
+body {
+  background-color: #f6f3ef;
+}
+
+h1 {
+  font-family: "altivo", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  font-family: "altivo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+h4 {
+  font-family: "altivo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "altivo", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Kategorier */
+.kategori_main {
+  padding: 2rem;
+}
+
+.billede_kategori {
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f6f3ef;
+  padding: 2rem;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 5px lightgray;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.box h2 {
+  text-align: center;
+  color: rgb(124, 124, 124);
+  font-family: "altivo", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.box a {
+  text-decoration: none;
+}
+
+/* Produktliste */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.container a {
+  font-family: "altivo", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  margin-top: 4rem;
+}
+
+.subtle {
+  color: gray;
+}
+
+.price_before {
+  color: black;
+}
+
+.discounted {
+  color: red;
+  text-decoration: none;
+}
+
+.produkt_soldOut img {
+  opacity: 0.5;
+}
+
+.con {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  color: black;
+  top: 44%;
+  background-color: rgba(245, 245, 245, 0.547);
+  padding: 0.5rem 7.4rem;
+}
+
+/* Produkt */
+
+.container_produkt {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "altivo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.info {
+  padding-top: 10rem;
+  line-height: 3rem;
+}
+
+form {
+  padding-top: 4rem;
+}
+
+label {
+  font-family: "altivo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+select {
+  min-width: 50px;
+  background-color: #f6f3ef;
+  border-radius: 5px;
+  padding: 0.4rem;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 5px lightgray;
+}
+
+button {
+  padding: 1rem 14.25rem;
+  background-color: #f6f3ef;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 5px lightgray;
+}

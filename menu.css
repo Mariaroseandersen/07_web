@@ -1,0 +1,37 @@
+/* menu og logo */
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 30px auto 40px;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+#logo {
+  font-size: 2rem;
+  font-family: "altivo", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  margin-left: 1rem;
+}
+
+.menu a {
+  display: flex;
+  font-weight: lighter;
+  color: black;
+  font-size: 1.2rem;
+  font-family: "altivo", sans-serif;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 20px;
+}

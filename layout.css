@@ -1,0 +1,14 @@
+/* Desktop */
+@media (min-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .container_produkt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
