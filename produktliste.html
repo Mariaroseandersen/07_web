@@ -12,7 +12,7 @@
     <title>Produktliste</title>
 </head>
 
-<body>
+<body class="produktliste">
     <header>
         <div><a id="logo" href="index.html">LOGO</a></div>
         <nav>
@@ -24,98 +24,31 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Produkter</h1>
-        <div class="container">
-            <article class="produkt">
-                <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
-                    alt="Sahara Team India Fanwear Round Neck Jersey">
-                <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-                <p class="subtle">Tshirts | Nike</p>
-                <p class="price">895 DKK</p>
-                <a href="produkt.html">Læs mere her</a>
-            </article>
-            <article class="produkt_onSale">
-                <img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="Blue T20 Indian Cricket Jersey">
-                <h3>Blue T20 Indian Cricket Jersey</h3>
-                <p class="subtle">Tshirts | Nike</p>
-                <p class="price_before"><s>1595</s> <span class="discounted">1000 DKK</span></p>
-                <a href="produkt.html">Læs mere her</a>
-            </article>
-            <article class="produkt_soldOut">
-                <div class="con">
-                    <img src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp" alt="Deck Navy Blue Backpack">
-                    <div class="text">
-                        <h4>UDSOLGT</h4>
-                    </div>
-                </div>
-                <h3>Deck Navy Blue Backpack</h3>
-                <p class="subtle">Backpacks | Puma</p>
-                <p class="price">1299 DKK</p>
-                <a href="produkt.html">Læs mere her</a>
-            </article>
-        </div>
+    <h1>Produkter</h1>
+    <main></main>
 
-        <div class="container">
-            <article class="produkt">
-                <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
-                    alt="Sahara Team India Fanwear Round Neck Jersey">
-                <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-                <p class="subtle">Tshirts | Nike</p>
-                <p class="price">895 DKK</p>
-                <a href="produkt.html">Læs mere her</a>
-            </article>
-            <article class="produkt_onSale">
-                <img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="Blue T20 Indian Cricket Jersey">
-                <h3>Blue T20 Indian Cricket Jersey</h3>
-                <p class="subtle">Tshirts | Nike</p>
-                <p class="price_before"><s>1595</s> <span class="discounted">1000 DKK</span></p>
-                <a href="produkt.html">Læs mere her</a>
-            </article>
-            <article class="produkt_soldOut">
-                <div class="con">
-                    <img src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp" alt="Deck Navy Blue Backpack">
-                    <div class="text">
-                        <h4>UDSOLGT</h4>
-                    </div>
-                </div>
-                <h3>Deck Navy Blue Backpack</h3>
-                <p class="subtle">Backpacks | Puma</p>
-                <p class="price">1299 DKK</p>
-                <a href="produkt.html">Læs mere her</a>
-            </article>
-        </div>
 
-        <div class="container">
-            <article class="produkt">
-                <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
-                    alt="Sahara Team India Fanwear Round Neck Jersey">
-                <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-                <p class="subtle">Tshirts | Nike</p>
-                <p class="price">895 DKK</p>
-                <a href="produkt.html">Læs mere her</a>
-            </article>
-            <article class="produkt_onSale">
-                <img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="Blue T20 Indian Cricket Jersey">
-                <h3>Blue T20 Indian Cricket Jersey</h3>
-                <p class="subtle">Tshirts | Nike</p>
-                <p class="price_before"><s>1595</s> <span class="discounted">1000 DKK</span></p>
-                <a href="produkt.html">Læs mere her</a>
-            </article>
-            <article class="produkt_soldOut">
-                <div class="con">
-                    <img src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp" alt="Deck Navy Blue Backpack">
-                    <div class="text">
-                        <h4>UDSOLGT</h4>
-                    </div>
+    <template id="produktTemplate">
+
+        <article class="produkt">
+            <div class="con">
+                <img src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp" alt="Deck Navy Blue Backpack">
+                <div class="udsolgt hide ">
+                    <h4>UDSOLGT</h4>
                 </div>
-                <h3>Deck Navy Blue Backpack</h3>
-                <p class="subtle">Backpacks | Puma</p>
-                <p class="price">1299 DKK</p>
-                <a href="produkt.html">Læs mere her</a>
-            </article>
-        </div>
-    </main>
+            </div>
+            <h3>NAVNET KOMEMR HER</h3>
+            <p><span class="brand">MÆRKE</span> | <span class="articletype">VAREN</span></p>
+            <p class="price">PRISEN</p>
+            <div class="price_after_discount">
+                <p>PRIS EFTER RABAT</p>
+            </div>
+            <a class="read-more" href="produkt.html">Læs mere her</a>
+        </article>
+
+    </template>
+
+    <script src="js/produktliste.js"></script>
 </body>
 
 </html>

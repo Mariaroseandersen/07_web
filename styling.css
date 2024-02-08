@@ -82,34 +82,35 @@ p {
 
 /* Produktliste */
 
-.container {
+.produktliste {
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 2rem;
 }
 
-.container a {
+.produkt a {
   font-family: "altivo", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: black;
-  margin-top: 4rem;
 }
 
 .subtle {
   color: gray;
 }
 
-.price_before {
+.price {
   color: black;
 }
 
-.discounted {
+.price_after_discount {
+  font-family: "altivo", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: red;
-  text-decoration: none;
 }
 
-.produkt_soldOut img {
+.produkt .soldOut img {
   opacity: 0.5;
 }
 
@@ -117,12 +118,17 @@ p {
   position: relative;
 }
 
-.text {
+.udsolgt {
+  display: none;
   position: absolute;
   color: black;
   top: 44%;
   background-color: rgba(245, 245, 245, 0.547);
   padding: 0.5rem 7.4rem;
+}
+
+.soldOut .udsolgt {
+  display: block;
 }
 
 /* Produkt */
